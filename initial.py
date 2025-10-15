@@ -1,7 +1,7 @@
 # test
 def new_fn(name):
     print(f"Hello, {name}")
-new_fn("Sam")
+# new_fn("Sam")
 
 # Homework W1
 
@@ -15,19 +15,26 @@ Once you have that working, you're ready for class -- you can edit
 and run Python code; now you just need to learn Python!
 """
 
-import sys
-# Define a main() - the function that prints a little greeting.
-def main():
-  # Get the name from the command line, using 'World' as a fallback.
-  if len(sys.argv) >= 2:
-    name = sys.argv[1]
-  else:
-    name = 'World'
-  print('Hello', name)
+# import sys
+# # Define a main() - the function that prints a little greeting.
+# def main():
+#   # Get the name from the command line, using 'World' as a fallback.
+#   if len(sys.argv) >= 2:
+#     name = sys.argv[1]
+#   else:
+#     name = 'Alice'
+#   print('Hello', name)
 
-# This is the standard boilerplate that calls the main() function.
-if __name__ == '__main__':
-  main()
+# # This is the standard boilerplate that calls the main() function.
+# if __name__ == '__main__':
+#   main()
 
 
+def my_function():
+    print("Hellow from My fn")
 
+def some_fn_from_me():
+    print("Smbody callem my fn")
+
+some_fn_from_me()
+my_function()
