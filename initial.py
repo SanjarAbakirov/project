@@ -34,7 +34,17 @@ def my_function():
     print("Hellow from My fn")
 
 def some_fn_from_me():
-    print("Smbody callem my fn")
+    print("Smbody called my fn")
 
-some_fn_from_me()
-my_function()
+# some_fn_from_me()
+# my_function()
+
+# arguments
+# pattern
+def my_fn_args(username, greeetings):
+    print("Hello, %s , from my Fn! with you %s"%(username, greeetings))
+
+def greet_fn(name, extra_word):
+    print("Hello, " + name + ". Welcome and " + extra_word)
+
+greet_fn("Sam", "Have a good day")
