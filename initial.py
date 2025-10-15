@@ -1,6 +1,6 @@
 # test
-def new_fn(name):
-    print(f"Hello, {name}")
+# def new_fn(name):
+#     print(f"Hello, {name}")
 # new_fn("Sam")
 
 # Homework W1
@@ -41,10 +41,22 @@ def some_fn_from_me():
 
 # arguments
 # pattern
-def my_fn_args(username, greeetings):
-    print("Hello, %s , from my Fn! with you %s"%(username, greeetings))
+# def my_fn_args(username, greetings):
+    # print("Hello, %s , from my Fn! with you %s"%(username, greetings))
+
+# my_fn_args("Sam", "we do many things and projects")
 
 def greet_fn(name, extra_word):
     print("Hello, " + name + ". Welcome and " + extra_word)
 
-greet_fn("Sam", "Have a good day")
+# greet_fn("Sam", "Have a good day")
+
+# first way
+# def function_alice(greeting, name):
+#     print("%s , %s"%(greeting, name))
+# function_alice("Hello", "Alice")
+
+# second way
+def fn_greet_alice(greeting, name):
+    print(greeting + ".  " + name)
+fn_greet_alice("Hello", "Alice")
