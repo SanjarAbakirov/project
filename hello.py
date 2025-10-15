@@ -40,8 +40,10 @@ def greet_fn(name, extra_word):
 def function_alice(greeting, name):
     print("%s, %s"%(greeting, name))
 function_alice("Hello", "Alice")
+function_alice("Howdy", "Alice")
 
 # second way
 def fn_greet_alice(greeting, name):
     print(greeting + ". " + name)
+fn_greet_alice("Hello", "Alice")
 fn_greet_alice("Howdy", "Alice")
