@@ -52,11 +52,11 @@ def greet_fn(name, extra_word):
 # greet_fn("Sam", "Have a good day")
 
 # first way
-# def function_alice(greeting, name):
-#     print("%s , %s"%(greeting, name))
-# function_alice("Hello", "Alice")
+def function_alice(greeting, name):
+    print("%s, %s"%(greeting, name))
+function_alice("Hello", "Alice")
 
 # second way
 def fn_greet_alice(greeting, name):
-    print(greeting + ".  " + name)
-fn_greet_alice("Hello", "Alice")
+    print(greeting + ". " + name)
+fn_greet_alice("Howdy", "Alice")
