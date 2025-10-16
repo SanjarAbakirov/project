@@ -89,5 +89,5 @@ print(input())
 
 num = int(input())
 print(num)
-num_float = float(input())
-print(num_float)
+# num_float = float(input())
+# print(num_float)
