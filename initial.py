@@ -84,4 +84,5 @@ my_element = mylist2.pop(1)
 print(my_element)
 
 # inputs
-
+mylist2 = input()
+print(input())
