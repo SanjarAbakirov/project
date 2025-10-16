@@ -35,7 +35,50 @@
 
 # Week 2 lection
 
-colors = ["red", "blue", "green", "white"]
-print(colors[0]) 
-print(colors[1])
-print(len(colors))
+# colors = ["red", "blue", "green", "white"]
+# print(colors[0]) 
+# print(colors[1])
+# print(len(colors))
+
+#  lists
+mylist = []
+
+# mylist.append(1)
+# mylist.append(2)
+# mylist.append(3)
+# [1, 2, 3]
+# mylist.append(4)
+
+# print(mylist[0]) 
+# print(mylist[1]) 
+# print(mylist[2]) 
+# print(mylist[3])
+
+# insert
+mylist2 = ['larry', 'curly', 'moe']
+mylist2.append('shrimp') 
+# appended the element
+mylist2.insert(1, "Sammy")
+
+# print(mylist2[0]) 
+# print(mylist2[1]) 
+# print(mylist2[2]) 
+# print(mylist2[3])
+# print(mylist2[4]) 
+
+# extend
+mylist2.extend(["Horhe", "Karamba", "Misha"])
+mylist2.remove("larry")
+
+print(mylist2)
+print(mylist2.index("moe"))
+
+mylist2.sort()
+print(mylist2)
+mylist2.reverse()
+print(mylist2)
+mylist2.pop(0)
+print(mylist2)
+
+my_element = mylist2.pop(1)
+print(my_element)
