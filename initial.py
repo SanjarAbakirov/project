@@ -56,9 +56,9 @@
 
 # insert
 mylist2 = ['larry', 'curly', 'moe']
-mylist2.append('shrimp') 
+# mylist2.append('shrimp') 
 # appended the element
-mylist2.insert(1, "Sammy")
+# mylist2.insert(1, "Sammy")
 
 # print(mylist2[0]) 
 # print(mylist2[1]) 
@@ -67,10 +67,10 @@ mylist2.insert(1, "Sammy")
 # print(mylist2[4]) 
 
 # extend
-mylist2.extend(["Horhe", "Karamba", "Misha"])
-mylist2.remove("larry")
+# mylist2.extend(["Horhe", "Karamba", "Misha"])
+# mylist2.remove("larry")
 
-print(mylist2)
+# print(mylist2)
 # print(mylist2.index("moe"))
 
 mylist2.sort()
@@ -86,3 +86,8 @@ mylist2.pop(0)
 # inputs
 mylist2 = input()
 print(input())
+
+num = int(input())
+print(num)
+num_float = float(input())
+print(num_float)
