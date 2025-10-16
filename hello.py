@@ -17,7 +17,7 @@
 
 def greetings_Alice():
     print("Somebody is calling Alice")
-greetings_Alice()
+# greetings_Alice()
 
 # Task 3 change "Hello" for "Howdy"
 
@@ -31,38 +31,37 @@ Once you have that working, you're ready for class -- you can edit
 and run Python code; now you just need to learn Python!
 """
 
-def greet_fn(name, extra_word):
-    print("Hello, " + name + ". Welcome and " + extra_word)
+# def greet_fn(name, extra_word):
+    # print("Hello, " + name + ". Welcome and " + extra_word)
 
 # greet_fn("Sam", "Have a good day")
 
 # first way
-def function_alice(greeting, name):
-    print("%s, %s"%(greeting, name))
-function_alice("Hello", "Alice")
-function_alice("Howdy", "Alice")
+# def function_alice(greeting, name):
+    # print("%s, %s"%(greeting, name))
+# function_alice("Hello", "Alice")
+# function_alice("Howdy", "Alice")
 
 # second way
 def fn_greet_alice(greeting, name):
     print(greeting + ". " + name)
-fn_greet_alice("Hello", "Alice")
+# fn_greet_alice("Hello", "Alice")
 fn_greet_alice("Howdy", "Alice")
-
 
 
 # second task
 
-
 import sys
-# Define a main() - the function that prints a little greeting.
+# Define a main() function that prints a little greeting.
 def main():
   # Get the name from the command line, using 'World' as a fallback.
   if len(sys.argv) >= 2:
     name = sys.argv[1]
   else:
-    name = 'Alice'
+    name = 'World'
   print('Hello', name)
 
 # This is the standard boilerplate that calls the main() function.
 if __name__ == '__main__':
   main()
+  
