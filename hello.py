@@ -43,10 +43,10 @@ and run Python code; now you just need to learn Python!
 # function_alice("Howdy", "Alice")
 
 # second way
-def fn_greet_alice(greeting, name):
-    print(greeting + ". " + name)
+# def fn_greet_alice(greeting, name):
+    # print(greeting + ". " + name)
 # fn_greet_alice("Hello", "Alice")
-fn_greet_alice("Howdy", "Alice")
+# fn_greet_alice("Howdy", "Alice")
 
 
 # second task
@@ -64,4 +64,5 @@ def main():
 # This is the standard boilerplate that calls the main() function.
 if __name__ == '__main__':
   main()
-  
+
+
