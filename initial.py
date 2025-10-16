@@ -41,18 +41,18 @@
 # print(len(colors))
 
 #  lists
-mylist = []
+# mylist = []
 
-mylist.append(1)
-mylist.append(2)
-mylist.append(3)
-# [1, 2, 3]
-mylist.append(4)
+# mylist.append(1)
+# mylist.append(2)
+# mylist.append(3)
+# # [1, 2, 3]
+# mylist.append(4)
 
-print(mylist[0]) 
-print(mylist[1]) 
-print(mylist[2]) 
-print(mylist[3])
+# print(mylist[0]) 
+# print(mylist[1]) 
+# print(mylist[2]) 
+# print(mylist[3])
 
 # insert
 mylist2 = ['larry', 'curly', 'moe']
@@ -82,3 +82,6 @@ print(mylist2)
 
 my_element = mylist2.pop(1)
 print(my_element)
+
+# inputs
+
