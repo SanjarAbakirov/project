@@ -71,17 +71,17 @@ mylist2.extend(["Horhe", "Karamba", "Misha"])
 mylist2.remove("larry")
 
 print(mylist2)
-print(mylist2.index("moe"))
+# print(mylist2.index("moe"))
 
 mylist2.sort()
-print(mylist2)
+# print(mylist2)
 mylist2.reverse()
-print(mylist2)
+# print(mylist2)
 mylist2.pop(0)
-print(mylist2)
+# print(mylist2)
 
-my_element = mylist2.pop(1)
-print(my_element)
+# my_element = mylist2.pop(1)
+# print(my_element)
 
 # inputs
 mylist2 = input()
