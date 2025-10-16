@@ -84,10 +84,11 @@ mylist2.pop(0)
 # print(my_element)
 
 # inputs
-mylist2 = input()
-print(input())
 
-num = int(input())
-print(num)
+# num = int(input())
+# print(num)
 # num_float = float(input())
 # print(num_float)
+
+string1 = input()
+print(string1)
