@@ -22,4 +22,11 @@
 
 # practice
 
-num_pen = input("How many donuts")
+num_don = int(input("How many donuts?"))
+# print(type(num_don))
+if num_don >10:
+    print("A lot. Eat less")
+elif num_don == 0: 
+    print("find more donuts")
+else:
+    print("You have enough")
