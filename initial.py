@@ -92,3 +92,8 @@ mylist2.pop(0)
 
 string1 = input()
 print(string1)
+
+a = 5
+b = 0.63
+c = "hello"
+print("a is : %d, b is %0.4f, c is %s" % (a,b,c))
