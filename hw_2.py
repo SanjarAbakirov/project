@@ -1,9 +1,8 @@
-import sys
+# import sys
 
 def main():
-  question = input('How many donuts?')
-  num_don = 0
-  if num_don(sys.argv[1]) >= 9:
+  num_don = int(input('How many donuts?'))
+  if num_don <= 9:
     # num_don = sys.argv[1]
     print("Number of donuts: " + num_don)
   else:
