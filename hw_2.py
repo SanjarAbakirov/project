@@ -1,5 +1,7 @@
 # import sys
 
+number_d = 0
+
 def main():
   num_don = int(input('How many donuts?'))
   if num_don <= 9:
