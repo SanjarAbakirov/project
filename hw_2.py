@@ -4,9 +4,9 @@ number_d = 0
 
 def main():
   num_don = int(input('How many donuts?'))
-  if num_don <= 9:
+  if num_don <= 9.0:
     # num_don = sys.argv[1]
-    print("Number of donuts: %d "), (num_don)
+    print("Number of donuts: %f "), (num_don)
   else:
     print("many")
 
