@@ -7,7 +7,7 @@ def main():
     # num_don = sys.argv[1]
     print("Number of donuts:", + num_don),
   else:
-    print("many")
+    print("You eat too many of them")
 
 if __name__ == '__main__':
 # Код, который выполняется только при прямом запуске (например, main()),
