@@ -17,7 +17,19 @@ if __name__ == '__main__':
 
 # --------------------
 
+def match_ends(words):
+  words = int(input('How many donuts?'))
 
+
+ 
+match_ends("Sammy", "Tonny", "Johny")
+
+def main():
+  if len(sys.argv) >= 2:
+    name = sys.argv[1]
+  else:
+    name = 'World'
+  print('Hello', name)
 
 
 
