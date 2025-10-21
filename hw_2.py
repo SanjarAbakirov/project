@@ -1,19 +1,31 @@
 # A match_ends
 
-words = ["level", "property", "aza", "kazak", "python", "lesha", "amanda", "asa", "sas", "s", "de"]
+# words = ["level", "property", "aza", "kazak", "python", "lesha", "amanda", "asa", "sas", "s", "de"]
 
-def match_ends(words):
-  arr = []
-  count = 0
-  for word in words:
-      if len(word) >= 2:
-         count += 1
-  return count
-match_ends(words)
-result = match_ends(words)
+# def match_ends(words):
+#   arr = []
+#   count = 0
+#   for word in words:
+#       if len(word) >= 2:
+#          count += 1 
+#   return count
+# match_ends(words)
+# result = match_ends(words)
+# print(result)
+
+# traning
+
+words = ["xylophone", "apple", "axe", "extra", "berry", "xenon"]
+result = 0
+def gpt_fn(words):
+    arr = []
+    for word in words:
+      if word[0] == "x" and len(word) < 5:
+         arr.append(word)
+    return arr
+gpt_fn(words)
+result = gpt_fn(words)
 print(result)
-
-# 
 
 
 
