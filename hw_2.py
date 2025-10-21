@@ -1,14 +1,14 @@
 # A match_ends
 
-words = ["level", "property", "aza", "kazak", "python", "lesha", "amanda", "kyshtak", "sas"]
+words = ["level", "property", "aza", "kazak", "python", "lesha", "amanda", "asa", "sas", "s", "de"]
 
 def match_ends(words):
   arr = []
   count = 0
   for word in words:
-      if word[0] != word[-1]:
-         count 
-  return 
+      if len(word) >= 2:
+         count += 1
+  return count
 match_ends(words)
 result = match_ends(words)
 print(result)
