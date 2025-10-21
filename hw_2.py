@@ -1,18 +1,15 @@
+words = ["level", "property", "aza", "kazak", "python", "lesha", "amanda"]
+result = 0
 
-
-# --------------------
-
-
-
-
-
-
-
-
-    for w in words:
-      if len(words) <= 2:
-        return print("Ok")
-
+def check_fn():
+  count = 0
+  for word in words:
+      if word[0] == word[-1]:
+        count += 1
+  return count
+check_fn(words)
+result = check_fn(words)
+print(result)
 
 
  
@@ -32,13 +29,6 @@
 
 
 
-
-# def main():
-#   if len(sys.argv) >= 2:
-#     name = sys.argv[1]
-#   else:
-#     name = 'World'
-#   print('Hello', name)
 
 
 
