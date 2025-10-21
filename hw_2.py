@@ -13,14 +13,13 @@
 # result = match_ends(words)
 # print(result)
 
-# traning
-
+# training
 words = ["xylophone", "apple", "axe", "extra", "berry", "xenon"]
 result = 0
 def gpt_fn(words):
     arr = []
     for word in words:
-      if word[0] == "x" and len(word) < 5:
+      if word[0] == "x" or len(word) < 5:
          arr.append(word)
     return arr
 gpt_fn(words)
