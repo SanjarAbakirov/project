@@ -46,7 +46,7 @@ result = 0
 def front_x(arr1):
   arr = []
   for word in arr1:
-      if word[0] == "x":
+      if word[0] != "x":
         arr.append(word)
       return arr
 front_x(arr1)        
