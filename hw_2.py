@@ -14,36 +14,30 @@
 # print(result)
 
 # training
-words = ["xylophone", "apple", "axe", "extra", "berry", "xenon"]
-result = 0
-def gpt_fn(words):
-    arr = []
-    for word in words:
-      if word[0] == "x" or len(word) < 5:
-         arr.append(word)
-    return arr
-gpt_fn(words)
-result = gpt_fn(words)
-print(result)
-
-
-
-
-
-
+# words = ["xylophone", "apple", "axe", "extra", "berry", "xenon"]
+# result = 0
+# def gpt_fn(words):
+#     arr = []
+#     for word in words:
+#       if word[0] == "x" or len(word) < 5:
+#          arr.append(word)
+#     return arr
+# gpt_fn(words)
+# result = gpt_fn(words)
+# print(result)
 
 # Ex with the palindrome
-# words = ["level", "property", "aza", "kazak", "python", "lesha", "amanda", "kyshtak", "sas"]
+words = ["level", "property", "aza", "kazak", "python", "lesha", "amanda", "kyshtak", "sas", "xex"]
 
-# def match_ends(words):
-#   arr = []
-#   for word in words:
-#       if word[0] != word[-1]:
-#         arr.append(word)
-#   return arr
-# match_ends(words)
-# result = match_ends(words)
-# print(result)
+def match_ends(words):
+  arr = []
+  for word in words:
+      if word[0] == word[-1]:
+        arr.append(word)
+  return arr
+match_ends(words)
+result = match_ends(words)
+print(result)
 
 
 
