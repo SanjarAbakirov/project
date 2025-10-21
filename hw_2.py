@@ -26,19 +26,25 @@
 # result = gpt_fn(words)
 # print(result)
 
-# Ex with the palindrome
-words = ["level", "property", "aza", "kazak", "python", "lesha", "amanda", "kyshtak", "sas", "xex"]
+# Task - the palindrome
+# words = ["level", "property", "aza", "kazak", "python", "lesha", "amanda", "kyshtak", "sas", "xex"]
 
-def match_ends(words):
-  arr = []
-  for word in words:
-      if word[0] == word[-1]:
-        arr.append(word)
-  return arr
-match_ends(words)
-result = match_ends(words)
-print(result)
+# def match_ends(words):
+#   arr = []
+#   for word in words:
+#       if word[0] == word[-1]:
+#         arr.append(word)
+#   return arr
+# match_ends(words)
+# result = match_ends(words)
+# print(result)
 
+# task front_x
+arr1 = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark']
+
+def front_x():
+ arr = []
+ if 
 
 
 
