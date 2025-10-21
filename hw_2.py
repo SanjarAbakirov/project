@@ -40,7 +40,7 @@
 # print(result)
 
 # task front_x
-arr1 = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark']
+arr1 = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark', 'java']
 result = 0
 def front_x(arr1):
   arr = []
