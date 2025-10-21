@@ -6,8 +6,8 @@ def check_fn(words):
   arr = []
   for word in words:
       if word[0] != word[-1]:
-        arr.append
-  return 
+        arr.append(word)
+  return arr
 check_fn(words)
 result = check_fn(words)
 print(result)
