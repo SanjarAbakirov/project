@@ -4,10 +4,11 @@ words = ["level", "property", "aza", "kazak", "python", "lesha", "amanda", "kysh
 
 def match_ends(words):
   arr = []
+  count = 0
   for word in words:
       if word[0] != word[-1]:
-        arr.append(word)
-  return arr
+         count 
+  return 
 match_ends(words)
 result = match_ends(words)
 print(result)
