@@ -45,10 +45,15 @@ result = 0
 
 def front_x(words):
   arr = []
+  arr2 = [] 
+  joined = 0
   for word in words:
-      if word[0] == "x":
+      if word[0] == 'x':
         arr.append(word)
-      return words
+      else:
+         arr2.append(word)
+      joined = arr + arr2
+  return joined
 front_x(words)       
 result = front_x(words)
 print(result)
