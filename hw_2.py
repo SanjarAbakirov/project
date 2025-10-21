@@ -1,7 +1,7 @@
 words = ["level", "property", "aza", "kazak", "python", "lesha", "amanda"]
 result = 0
 
-def check_fn():
+def check_fn(words):
   count = 0
   for word in words:
       if word[0] == word[-1]:
