@@ -40,17 +40,17 @@
 # print(result)
 
 # task front_x
-arr1 = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark', 'java', 'xawier']
+words = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark', 'java', 'xawier']
 result = 0
 
-def front_x(arr1):
+def front_x(words):
   arr = []
-  for word in arr1:
-      if word[0] != "x":
+  for word in words:
+      if word[0] == "x":
         arr.append(word)
-      return arr
-front_x(arr1)        
-result = front_x(arr1)
+      return words
+front_x(words)       
+result = front_x(words)
 print(result)
 
 
