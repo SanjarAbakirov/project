@@ -40,12 +40,12 @@
 # print(result)
 
 # task front_x
-words = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark', 'java', 'xawier']
+words = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark', 'java', 'xawier', 'avitchi', 'xpara']
 result = 0
 
 def front_x(words):
   arr = []
-  arr2 = [] 
+  arr2 = []
   joined = 0
   for word in words:
       if word[0] == 'x':
@@ -57,11 +57,6 @@ def front_x(words):
 front_x(words)       
 result = front_x(words)
 print(result)
-
-
-
-
-
 
 
 
