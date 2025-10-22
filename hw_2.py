@@ -40,25 +40,31 @@
 # print(result)
 
 # task front_x
-words = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark', 'java', 'xawier', 'avitchi', 'xpara']
-result = 0
+# words = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark', 'java', 'xawier', 'avitchi', 'xpara']
+# result = 0
 
-def front_x(words):
-  arr = []
-  arr2 = []
-  joined = 0
-  for word in words:
-      if word[0] == 'x':
-        arr.append(word)
-      else:
-         arr2.append(word)
-      joined = arr + arr2
-  return joined
-front_x(words)       
-result = front_x(words)
-print(result)
+# def front_x(words):
+#   arr = []
+#   arr2 = []
+#   joined = 0
+#   for word in words:
+#       if word[0] == 'x':
+#         arr.append(word)
+#       else:
+#          arr2.append(word)
+#       joined = arr + arr2
+#   return joined
+# front_x(words)       
+# result = front_x(words)
+# print(result)
 
 
+# sort_last
+list = [(1, 7), (1, 3), (3, 4, 5), (2, 2)]
+
+element = lambda element:element[1]
+list.sort(key=element)
+print(list)
 
 
 
