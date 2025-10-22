@@ -51,7 +51,6 @@ and run Python code; now you just need to learn Python!
 
 # second task
 
-# import sys
 
 # # Define a main() function that prints a little greeting.
 # def main():
