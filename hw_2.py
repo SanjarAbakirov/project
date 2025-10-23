@@ -74,16 +74,17 @@ import unittest
 class MyTest(unittest.TestCase):
   def test_main(self):
     self.assertEqual(main(2), 8)
+      if got == expected:
+        prefix = 'Ok'
+      else:
+        prefix = 'X'
+      print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
     unittest.main()
   test_main()
 main()
 
 
-        # if got == expected:
-        #     prefix = 'Ok'
-        # else:
-        #     prefix = 'X'
-        # print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
+  
  
 
 
