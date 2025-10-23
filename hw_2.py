@@ -67,20 +67,37 @@
 
 # test fn
 
-def main():
-    def test(got, expected):
+def main(n):
+    return n ** 3
+
+import unittest
+
+class MyTest(unittest.TestCase):
+    def test_main(self):
+        self.assertEqual(self):
+
+
+
         if got == expected:
             prefix = 'Ok'
         else:
             prefix = 'X'
         print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
-
-
-
-
-
     test()
 main()
+
+
+
+
+# def main():
+#     def test(got, expected):
+#         if got == expected:
+#             prefix = 'Ok'
+#         else:
+#             prefix = 'X'
+#         print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
+#     test()
+# main()
 
 
 
