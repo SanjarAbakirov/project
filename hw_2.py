@@ -72,8 +72,11 @@ def main(n):
 import unittest
 
 class MyTest(unittest.TestCase):
+
   def test_main(self):
     self.assertEqual(main(2), 8)
+    self.assertEqual(main(3), 27)
+    self.assertEqual(main(2), 4)
       if got == expected:
         prefix = 'Ok'
       else:
