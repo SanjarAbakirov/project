@@ -73,7 +73,7 @@ import unittest
 
 class MyTest(unittest.TestCase):
 
-  def test_main(self):
+  def test(self):
     self.assertEqual(main(2), 8)
     self.assertEqual(main(3), 27)
     self.assertEqual(main(2), 4)
@@ -82,7 +82,8 @@ class MyTest(unittest.TestCase):
     else:
         prefix = 'X'
     print('%s got: %s expected: %s' % (prefix, repr(main(2)), repr(8)))
-    unittest.main()
+
+unittest.main()
 
 
 
