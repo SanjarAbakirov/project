@@ -83,7 +83,7 @@ class MyTest(unittest.TestCase):
         else:
             prefix = 'X'
         print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
-    test()
+    test_main()
 main()
 
 
