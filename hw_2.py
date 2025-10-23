@@ -60,10 +60,10 @@
 
 
 # sort_last
-list = [(1, 7), (1, 3), (3, 4, 5), (2, 2)]
-element = lambda element:element[1]
-list.sort(key=element)
-print(list)
+# list = [(1, 7), (1, 3), (3, 4, 5), (2, 2)]
+# element = lambda element:element[1]
+# list.sort(key=element)
+# print(list)
 
 # test fn
 
@@ -74,6 +74,11 @@ def main():
         else:
             prefix = 'X'
         print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
+
+
+
+
+
     test()
 main()
 
