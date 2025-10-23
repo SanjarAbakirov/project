@@ -77,11 +77,11 @@ class MyTest(unittest.TestCase):
     self.assertEqual(main(2), 8)
     self.assertEqual(main(3), 27)
     self.assertEqual(main(2), 4)
-      if got == expected:
+      if main(2) == 8:
         prefix = 'Ok'
       else:
         prefix = 'X'
-      print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
+      print('%s got: %s expected: %s' % (prefix, repr(main(2)), repr(8)))
     unittest.main()
   test_main()
 main()
