@@ -69,13 +69,14 @@
 
 def main(n):
     return n ** 3
-
 import unittest
 
 class MyTest(unittest.TestCase):
-    def test_main(self):
-        self.assertEqual(main(2), 8)
+  def test_main(self):
+    self.assertEqual(main(2), 8)
     unittest.main()
+  test_main()
+main()
 
 
         # if got == expected:
@@ -83,9 +84,7 @@ class MyTest(unittest.TestCase):
         # else:
         #     prefix = 'X'
         # print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
-    test_main()
-main()
-
+ 
 
 
 
