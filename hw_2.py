@@ -65,8 +65,17 @@ element = lambda element:element[1]
 list.sort(key=element)
 print(list)
 
+# test fn
 
-
+def main():
+    def test(got, expected):
+        if got == expected:
+            prefix = 'Ok'
+        else:
+            prefix = 'X'
+        print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
+    test()
+main()
 
 
 
