@@ -74,7 +74,7 @@ import unittest
 
 class MyTest(unittest.TestCase):
     def test_main(self):
-        self.assertEqual(self):
+        self.assertEqual(main(2), 8)
 
 
 
