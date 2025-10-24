@@ -74,10 +74,10 @@ import unittest
 class MyTest(unittest.TestCase):
 
   def test(self):
-    result = 0
-    self.assertEqual(main(1), 1)
-    self.assertEqual(main(3), 27)
     result = main(1)
+    self.assertEqual(result, 1)
+    self.assertEqual(main(3), 27)
+ 
     if main(2) == 8:
         prefix = 'Ok'
     else:
