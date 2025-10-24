@@ -83,7 +83,7 @@ class MyTest(unittest.TestCase):
         prefix = 'X'
     print('%s got: %s expected: %s' % (prefix, repr(main(2)), repr(8)))
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
   unittest.main()
 
 
