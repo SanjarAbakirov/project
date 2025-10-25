@@ -79,8 +79,7 @@ class MyTest(unittest.TestCase):
     self.assertEqual(result, expect)
     return result, expect
 
-
-if main(1) == 8:
+if result == expect:
         prefix = 'Ok'
 else:
         prefix = 'X'
