@@ -83,8 +83,7 @@ if main(3) == 27:
         prefix = 'Ok'
 else:
         prefix = 'X'
-print('%s got: %s expected: %s' % (prefix, repr(main(3)), repr(27)))
-
+# print comment
 if __name__ == '__main__':
   unittest.main()
 
