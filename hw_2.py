@@ -74,9 +74,10 @@ import unittest
 class MyTest(unittest.TestCase):
 
   def test(self):
-    result = main(n)
+    result = main(3)
     expect = 27
     self.assertEqual(result, expect)
+
 
 
 
