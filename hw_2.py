@@ -77,8 +77,8 @@ class MyTest(unittest.TestCase):
     result = main(3)
     expect = 27
     self.assertEqual(result, expect)
-  
 render(main, 1, 1)
+
 if main(1) == 8:
         prefix = 'Ok'
 else:
