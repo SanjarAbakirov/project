@@ -72,7 +72,6 @@ def main(n):
 import unittest
 
 class MyTest(unittest.TestCase):
-
   def test(self):
     result = main(3)
     expect = 27
