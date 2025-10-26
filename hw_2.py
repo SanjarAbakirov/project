@@ -65,7 +65,7 @@
 # list.sort(key=element)
 # print(list)
 
-# test fn
+# test fn (the first way)
 
 def main(n):
     return n ** 3
