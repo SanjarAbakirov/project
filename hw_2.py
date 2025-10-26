@@ -72,24 +72,24 @@ def main(n):
 import unittest
 
 class MyTest(unittest.TestCase):
-  def test(self):
-    result = main(3)
-    expect = 27
-    self.assertEqual(result, expect)
+  def test(got, expected):
+    if got == expected:
+        prefix = 'Ok'
+    else:
+        prefix = 'X'
+    print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
+
+
     return result, expect
 
-if main(3) == 27:
-        prefix = 'Ok'
-else:
-        prefix = 'X'
-print('%s got: %s expected: %s' % (prefix, repr(main(3)), repr(27)))
+
 
 if __name__ == '__main__':
   unittest.main()
 
 
-
-
+    # result = main(3)
+    # expect = 27
   
  
 
