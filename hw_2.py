@@ -87,6 +87,8 @@ if __name__ == '__main__':
   unittest.main()
  
 
+# test fn (the second way)
+
 # def main():
 #     def test(got, expected):
 #         if got == expected:
